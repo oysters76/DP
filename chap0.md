@@ -42,7 +42,7 @@ This was a hard concept to grasp at first, because our minds are not designed to
 Therefore we must need to visualize this using a graph. 
 Let's see the example for a fib of 10. 
 This would be the graph. 
-
+![fib graph](https://github.com/oysters76/DP/blob/main/IMG_20210111_230445.jpg)
 The calling function, or the root function (fib(10)) would call two functions fib(9) and fib(8). The function splits here and the 
 tree graph is created. Likewise the child elements split into two until a base condition is met. Then the tree stops splitting and the 
 results are bubbled upwards. Finally the results reach fib(10) node and the user gets the output of the function. 
