@@ -61,3 +61,11 @@ function fib(n, memo={}){
   return memo[n]; 
 }
 ```
+
+This is a break down of the fib(5) tree 
+![fib graph](https://github.com/oysters76/DP/blob/main/IMG_20210114_222416.jpg)
+
+notice that the fib(5) can be expressed as 
+```
+fib(5) = fib(2) + fib(1) + fib(2) + fib(1) + fib(2) 
+```
